@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+.App {
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.navcolor {
+  background-color: rgb(39, 46, 113);
+}
+
+
+.form-control {
+  width: 700px;
+  height: 40px;
+}
+
+.icon {
+  font-size: 25px;
+  color: rgb(58, 69, 226);
+  cursor: pointer;
+  margin-left: -37px;
+  margin-top: 9px;
+}
+/* 
+.main {
+  width: 100%;
+} */
+
+.side { 
+  width: 30%;
+  background-color: rgb(246, 246, 246);
+ 
+  min-height: fit-content;
+
+}
+
+.center {
+  width: 70%;
+  min-height: fit-content;
+
+  background-color: rgb(249, 250, 251);
+ 
+}
+
+.users {
+  width: 100%;
+  height: 150px;
+
+
+}
+
+.UserData {
+  align-items: center;
+  text-align: center;
+
+}
+
+.UserData i {
+  font-size: 80px;
+  color: rgb(217, 217, 217);
+}
+
+.sidebars {
+
+  width: 100%;
+  height: 100vh;
+
+
+
+
+}
+
+.Sidebardata {
+  width: 50%;
+  height: 100vh;
+  margin: auto;
+
+
+
+
+}
+
+.iconbar {
+  font-size: 20px;
+  color: rgb(148, 151, 151);
+  text-align: center;
+}
+
+.dropdown-menu {
+
+  margin-left: -50px;
+}
+
+.drop {
+  margin-right: 8px;
+  color: rgb(218, 221, 218);
+  font-size: 22px;
+}
+
+.addtitle {
+  background-color: rgb(39, 46, 113);
+  width: 15%;
+  margin: auto;
+  color: rgb(243, 243, 243);
+}
+
+.iconss {
+  width: 80px;
+  font-size: 30px;
+  height: 48PX;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(249, 250, 251);
+}
+
+
+
+.zeo {
+  width: 74px;
+  font-size: 18px;
+  height: 35px;
+  color: rgb(30, 30, 240);
+  border: none;
+  background-color: rgb(249, 250, 251);
+  border: 1px solid rgb(38, 38, 218);
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.location {
+  width: 100%;
+  height: 50px;
+}
+
+.edit {
+  color: rgb(30, 30, 240);
+  font-size: 18px;
+}
+.loginn{
+  width: 50%;
+}
+.imput{
+  width: 500px;
+  height: 40px;
+}
